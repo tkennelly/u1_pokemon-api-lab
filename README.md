@@ -26,15 +26,14 @@ By wrapping our function up in a button's callback, we will only trigger it when
 ```js
 let button = document.querySelector("#searchButton")
 
-async function getData (event) {
-event.preventDefault()
-let textInput = document.querySelector("#inputBar").value.toLowerCase()
+button.addEventListener('click', async () => {
+let textInput = document.querySelector("#inputBar").value
 
 //Axios call goes here
+//remember to use Await!
 //DOM Setting goes here
 
 }
 
-button.addEventListener("click", getData)
 
 ```
