@@ -12,7 +12,7 @@ You may need to Map through and run some conditionals for some peices of informa
 
 ```html
 <form>
-    <input type="text"  value="" placeholder="Enter text here"  id="inputBar">
+    <input type="text"  value="" placeholder="Choose your pokemon!"  id="inputBar">
     <input type="button"  value="Click here" id="searchButton">
 </form>
 
@@ -31,13 +31,14 @@ let button = document.querySelector("#searchButton")
 
 button.addEventListener('click', async () => {
 
-    let textInput = document.querySelector("#inputBar").value
     let pokemonName = document.querySelector("#pokemonName")
     let pokemonImage = document.querySelector("#pokemonImage")
-
+    //where does this need to be scoped?
+    let textInput = document.querySelector("#inputBar").value
+        
 
     //Axios call goes here
-    //remember to use Await!
+    //remember to use Async and Await!
     //DOM Setters go here
 
 }
