@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Pick A Pokemon!</h1>
+
+    <header>
+        <form>
+            <input class="nav" type="text"  value="" placeholder="Choose your pokemon!"  id="inputBar">
+            <input type="button"  value="SEARCH" id="searchButton">
+        </form>
+        
+    </header>
+    
+    <div class="pokemonImage">
+        <h3 id="shineyCheck">Shiney/Common Check Test</h3>
+        <img id="pokemonImage"/>
+    </div>
+
+    <div class="nameBubble">
+        <h2 id="pokemonName">Pokemon Name test</h2>
+    </div>
+
+    <div class="infoBox">
+        <h2>Pokedex Entry</h2>
+        <p id="pokemonType">Pokemon Type Test</p>
+        <p id="pokemonMoves">Pokemon Move List Test</p>
+        <p id="flavorText">Pokemon Flavor Text Entry</p>
+    </div>
+
+    <div class="randoButton">
+        <input type="button"  value="RANDOM POKEMON" id="randoButton">
+    </div>
+</body>
+</html>

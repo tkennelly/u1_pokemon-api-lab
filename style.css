@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: -4px 4px #ef3550,
+             -8px 8px #f48fb1,
+             -12px 12px #7e57c2,
+             -16px 16px #2196f3,
+             -20px 20px #26c6da,
+             -24px 24px #43a047,
+             -28px 28px #eeff41,
+             -32px 32px #f9a825,
+             -36px 36px #ff5722;
+ }
+
+.nav {
+    border-radius: 25px;
+  background:linear-gradient(90deg, #ef3550,#f48fb1,#7e57c2, #2196f3, #26c6da, #43a047);
+  padding: 20px;
+  width: 250px;
+  height: 50px;
+  color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+#searchButton {
+    border-radius: 25px;
+    background:linear-gradient(90deg, #eeff41, #f9a825, #ff5722);
+    padding: 5px;
+    width: 100px;
+    height: 92px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: -3px 3px black;
+    font-size: 20px;
+}
+
+#randoButton {
+    position: absolute;
+    transform: translate(690px, -69px);
+    border-radius: 25px;
+    background:linear-gradient(90deg, #ef3550,#f48fb1,#7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    padding: 5px;
+    width: 250px;
+    height: 60px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: -3px 3px black;
+    font-size: 20px;
+}
+
+#shineyCheck {
+    width: 475px;
+    border: 5px solid white;
+    padding: 20px 0px;
+    text-align: center;
+    margin: 100px 100px 0px 100px;
+}
+
+#pokemonImage {
+    width: 475px;
+    border: 5px solid white;
+    height: 475px;
+    margin: 0px 100px ;
+}
+
+.nameBubble {
+        position: absolute;
+        transform: translate(620px, -530px);
+        width: 300px;
+        padding: 15px;
+        margin: 1em 0 3em;
+        color: white;
+        background: #f3961c;
+        border-radius: 10px;
+        background:linear-gradient(90deg, #ef3550,#f48fb1,#7e57c2, #2196f3, #26c6da, #43a047)
+      }
+      
+      .nameBubble:after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 15px;
+        left: -20px;
+        transform: rotate(90deg);
+        width: 0;
+        border-width: 15px 15px 0;
+        border-style: solid;
+        border-color: #ef3550 transparent;
+      }
+
+    .infoBox {
+        position: absolute;
+        transform: translate(620px, -500px);
+        width: 400px;
+        border: 5px solid white;
+        text-align: center;
+        margin: 100px 100px 0px 100px;
+    }
+
+
+
