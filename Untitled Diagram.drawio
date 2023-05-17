@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T17:51:40.408Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.3.2" etag="fA456V1a2uWG_Fbd69db" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T03:22:49.256Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="GIHoCoN3E-PVoTnEkLnU" version="21.3.2" type="github">
   <diagram name="Page-1" id="jSvrFgqHjhgfSm3mpcHO">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iB2Q6pce9tGjOyn7LQ_V-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2Q6pce9tGjOyn7LQ_V-4" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;Search Bar&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2Q6pce9tGjOyn7LQ_V-5" value="common / shiney (change based on click)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="300" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2Q6pce9tGjOyn7LQ_V-11" value="pic of pokemon (show shiney on click)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iB2Q6pce9tGjOyn7LQ_V-5">
+          <mxGeometry x="80" y="160" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2Q6pce9tGjOyn7LQ_V-6" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.33;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2Q6pce9tGjOyn7LQ_V-7" value="Pokedex Entry" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="200" width="340" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2Q6pce9tGjOyn7LQ_V-8" value="typing" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iB2Q6pce9tGjOyn7LQ_V-7">
+          <mxGeometry y="40" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2Q6pce9tGjOyn7LQ_V-9" value="moves" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iB2Q6pce9tGjOyn7LQ_V-7">
+          <mxGeometry y="140" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2Q6pce9tGjOyn7LQ_V-10" value="https://pokeapi.co/api/v2/pokemon-species/{id or name}/&amp;nbsp; &amp;nbsp;(FLAVOR TEXT ID)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iB2Q6pce9tGjOyn7LQ_V-7">
+          <mxGeometry y="220" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2Q6pce9tGjOyn7LQ_V-12" value="pokemon name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2Q6pce9tGjOyn7LQ_V-14" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="590" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iB2Q6pce9tGjOyn7LQ_V-15" value="RANDOM POKEMON BUTTON" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="318" y="605" width="215" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
